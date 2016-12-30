@@ -1,0 +1,26 @@
+[user]
+	name = Jakub Rakoczy
+	email = kuba.rakoczy@gmail.com
+	signingkey = 73998C23
+[alias]
+	lg  = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset' --abbrev-commit --date-order
+	lga = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset' --abbrev-commit --date-order --all
+	s = status
+	c = diff -M --cached
+	d = diff -M
+	a = add -A
+[core]
+	safecrlf = false
+	editor = vim
+[color]
+	ui = true
+[merge]
+	conflictstyle = diff3
+	defaultToUpstream = true
+[push]
+	default = nothing
+[aliast]
+[commit]
+	gpgsign = true
+[fetch]
+	prune = true
